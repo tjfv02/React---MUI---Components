@@ -1,0 +1,27 @@
+.two-fields {
+    display: flex;
+    margin-top: 8px;
+    justify-content: space-between;
+}
+
+.container {
+    position: relative;
+}
+
+.centered-list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.centered-list li {
+    border-left: 5px solid blue;
+    background-color: yellow;
+    padding: 5px;
+}
+
+.centered-list li.not-selected {
+    border-left: 5px solid transparent;
+    background-color: none;
+}
